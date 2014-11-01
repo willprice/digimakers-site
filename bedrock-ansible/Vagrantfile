@@ -22,7 +22,7 @@ Vagrant.configure('2') do |config|
   # Define path to bedrock directory on your local host machine
   #   - relative to Vagrantfile
   #   - use forward slashes ("/") regardless of your OS
-  bedrock_path = '../example.dev'
+  bedrock_path = '../digimakers-wordpress-bedrock'
 
   # Sync bedrock directory
   bedrock_path_server = File.join('/srv/www', File.basename(bedrock_path), 'current')

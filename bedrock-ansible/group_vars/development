@@ -4,7 +4,6 @@ wordpress_sites:
   - site_name: example.dev
     site_hosts:
       - example.dev
-      - 192.168.50.5
     user: vagrant
     group: www-data
     site_install: true

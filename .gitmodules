@@ -1,0 +1,6 @@
+[submodule "deploy"]
+	path = deploy
+	url = git@github.com:MVSE-Outreach/digimakers-site-deploy.git
+[submodule "digimakers"]
+	path = digimakers
+	url = git@github.com:MVSE-Outreach/digimakers-site-bedrock.git

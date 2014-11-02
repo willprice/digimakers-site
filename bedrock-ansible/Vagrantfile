@@ -8,7 +8,7 @@ Vagrant.configure('2') do |config|
 
   # Required for NFS to work, pick any local IP
   config.vm.network :private_network, ip: '192.168.50.5'
-  config.vm.hostname = 'example.dev'
+  config.vm.hostname = 'digimakers.dev'
 
   if !Vagrant.has_plugin? 'vagrant-hostsupdater'
     puts 'vagrant-hostsupdater missing, please install the plugin:'
